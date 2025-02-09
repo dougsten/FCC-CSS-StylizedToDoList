@@ -1,0 +1,29 @@
+.todo-list {
+  list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(72, 72, 250)
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    cursor: pointer;
+    color: green;
+    outline: 1px solid orange;
+}
+
+a:active {
+    color: magenta;
+}
+
+a:focus {
+    outline: 1px solid darkolivegreen; 
+}
