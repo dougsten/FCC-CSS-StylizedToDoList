@@ -3,27 +3,36 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:link {
-    color: rgb(72, 72, 250)
+  color: rgb(72, 72, 250)
 }
 
 a:visited {
-    color: darkblue;
+  color: darkblue;
 }
 
 a:hover {
-    cursor: pointer;
-    color: green;
-    outline: 1px solid orange;
+  cursor: pointer;
+  color: green;
+  outline: 1px solid orange;
 }
 
 a:active {
-    color: magenta;
+  color: magenta;
 }
 
 a:focus {
-    outline: 1px solid darkolivegreen; 
+  outline: 1px solid darkolivegreen; 
 }
+
+li {
+  padding: 25px;
+  border: 1px solid #d2f2d2;
+  border-radius: 8px;
+  margin: 8px;
+  background-color: #d2f2d2;
+}
+
